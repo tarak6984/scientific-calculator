@@ -1,71 +1,125 @@
-# Getting Started with Create React App
+# 🔢 Interactive Scientific Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the **Interactive Scientific Calculator** — a modern, responsive, and feature-rich calculator app built with **React** and **Material UI**! 🎉 It delivers a sleek, professional interface with futuristic animations and full scientific functionality, making it perfect for students, developers, and power users.
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🌟 Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+✨ **Modern UI with Material Design**
 
-### `npm test`
+* Built using **Material UI** components
+* RGB-animated design with gradient backgrounds
+* Glowing effects and polished interface with smooth transitions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🧮 **Four Operation Panels**
 
-### `npm run build`
+* **Basic**: Standard arithmetic
+* **Algebra**: Power, roots, logarithmic and exponential functions
+* **Trigonometry**: sin, cos, tan, inverse functions, and angle modes
+* **Statistics**: (Coming soon or already included)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🌓 **Dark/Light Theme Toggle**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Toggle with the 🌞/🌚 icon
+* Uses Material UI’s theme system for smooth transitions
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+📜 **Calculation History**
 
-### `npm run eject`
+* Modal-based display with scrollable history
+* Clear and review past calculations anytime
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+📏 **Angle Mode Support**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Switch between **Degrees**, **Radians**, and **Gradians**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+⌨️ **Keyboard Support**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* Full keyboard access for all basic operations
 
-## Learn More
+🧠 **Advanced Math Functions**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Trigonometry: sin, cos, tan, arcsin, arccos, arctan
+* Logarithmic: `ln`, `log`, exponential
+* Powers & Roots: `x²`, `x³`, `xⁿ`, `√`, `∛`
+* Constants: π (pi), e
+* Memory: `Ans` for last answer
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🎯 Key Interactions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* 🔘 **Click or type** for input
+* 🧮 **Tab navigation** between calculator modes
+* 🌗 **Toggle theme** via sun/moon icon
+* 📖 **View history** by clicking the scroll 📜 icon
+* 🔁 **Use SHIFT/ALPHA** for extended math functionality
+* 📐 **Switch angle modes** with the MODE button
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## ⚙️ Tech Stack
 
-### Making a Progressive Web App
+* **React** (Functional Components & Hooks)
+* **Material UI (MUI)** – component styling and theme support
+* **CSS3** – animations and effects
+* Fully responsive layout
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 🛠️ Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. Clone the repository
 
-### Deployment
+```bash
+git clone https://github.com/yourusername/scientific-calculator.git
+cd scientific-calculator
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+2. Install dependencies
 
-### `npm run build` fails to minify
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# scientific-calculator
+3. Run locally
+
+```bash
+npm start
+```
+
+---
+
+## 📁 Project Structure
+
+```
+/src
+ ┣ components/        // Calculator panels & UI components
+ ┣ themes/            // MUI theme config (dark/light)
+ ┣ assets/            // Icons, images, styles
+ ┣ App.jsx            // Main app structure
+ ┣ index.js           // Entry point
+```
+
+---
+
+## 🧠 Future Enhancements
+
+* Statistical operations (mean, SD, variance, etc.)
+* Graph plotting and visualization
+* Custom key remapping
+* Multi-language/localization support
+
+---
+
+## 👨‍💻 Author
+
+Developed with ❤️ by Tarak Md Shabbir
+Feel free to ⭐ star the repo, suggest features, or contribute!
+
+---
+
+## 📄 License
+
+Licensed under the **MIT License** — free for personal and commercial use.
